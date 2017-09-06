@@ -3,15 +3,24 @@ html {
   text-align: center;
 }
 
-.links h1 {
+h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
 h2 {
-  font-size: 32px
+  font-size: 32px;
   font-weight: bold;
+}
+
+.sectiontext h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.sectiontext p {
+  font-size: 14px;
 }
 
 #lastsection {
@@ -21,12 +30,13 @@ h2 {
   color: white;
 }
 
-.links {
+.navigation {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 18px;
   color: white;
+
 }
 
 .footnote {
@@ -34,4 +44,24 @@ h2 {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
 }
